@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pylab as plt
 
 
-
 interval = np.arange(0, 2.00, 0.02 )
 
 dataOnda = np.genfromtxt("ecuacion_de_onda_1.txt")
