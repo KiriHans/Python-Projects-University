@@ -1,5 +1,3 @@
-# Ejercicio 1 Terminar lo que hizo en clase + dos preguntas adicionales (en mayusculas en el texto)
-
 import numpy as np
 import matplotlib.pylab as plt
 import math

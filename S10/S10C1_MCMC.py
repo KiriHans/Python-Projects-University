@@ -14,10 +14,7 @@ def mifun(x):
 # sigma de la distribucion gausiana que va a usar para calcular el paso de su 
 # caminata, implemente el algortimo de Metropolis-Hastings. Finalmente, 
 # haga un histograma de los datos obtenidos y grafique en la misma grafica, 
-# la funcion de distribucion de probabilidad fx (Ojo, aca debe normalizar). 
-# Guarde la grafica sin mostrarla en un pdf. 
-# Use plt.savefig("histograma_"+str(sigma)+"_"+str(pasos)+".pdf"), 
-# donde sigma y pasos son los parametros que recibe la funcion. 
+# la funcion de distribucion de probabilidad fx
 
 # Cuando haya verificado que su codigo funciona, use los siguientes parametros:
 # sigma = 5, pasos =100000 
