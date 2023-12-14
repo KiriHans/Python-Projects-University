@@ -1,0 +1,8 @@
+# Automatically generated folders
+.vscode/
+
+# Python Environment 
+venv/
+
+# Object files
+*.o
