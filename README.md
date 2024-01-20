@@ -23,26 +23,121 @@ With having `g++` installed in your computer should be enough.
 When you want to execute a project with a Makefile, You should execute it using the `make` command while being inside the respective folder. 
 
 ## Folder tree
-- [**S10**](S10)
-    - [**Example Output**](<S10/Example Output>)
-- [**S2**](S2)
-    - [**Example Output**](<S2/Example Output>)
-- [**S3**](S3)
-- [**S4**](S4)
-    - [**Example Output**](<S4/Example Output>)
-- [**S5**](S5)
-    - [**Example Output**](<S5/Example Output>)
-- [**S6**](S6)
-    - [**Example Output**](<S6/Example Output>)
-- [**S7**](S7)
-    - [**Example Output**](<S7/Example Output>)
-- [**S8**](S8)
-    - [**Example Output**](<S8/Example Output>)
-        - [**Ecuacion de onda 1**](<S8/Example Output/Ecuacion de onda 1>)
-        - [**Ecuacion de onda 2**](<S8/Example Output/Ecuacion de onda 2>)
-        - [**Ecuacion de onda 3**](<S8/Example Output/Ecuacion de onda 3>)
-- [**S9**](S9)
-    - [**Example Output**](<S9/Example Output>)
+```bash
+Python-Projects-University
+├── README.md
+├── S10 - Metropolis-Hasting Algorithm & Bayesian parameter estimation
+│   ├── Example Output
+│   │   ├── README.md
+│   │   ├── Resorte.png
+│   │   ├── ResorteWithKandM.png
+│   │   ├── histograma_0.01_100000.pdf
+│   │   ├── histograma_0.1_1000.pdf
+│   │   ├── histograma_0.1_100000.pdf
+│   │   ├── histograma_0.2_100000.pdf
+│   │   └── histograma_5_100000.pdf
+│   ├── README.md
+│   ├── S10C1_MCMC.py
+│   └── S10CASA.py
+├── S2 - Derivation & Integration Methods
+│   ├── Example Output
+│   │   ├── 2DerivadaFun.pdf
+│   │   ├── DerivadaFun.png
+│   │   ├── ErrorDerivada.png
+│   │   ├── NRpoli.pdf
+│   │   └── README.md
+│   ├── README.md
+│   ├── S2C1_integrales.py
+│   ├── S2C2_der.py
+│   └── S2CASA_int_der.py
+├── S3 - Gaussian elimination
+│   ├── README.md
+│   └── S3C2_EG.py
+├── S4 - Fast Fourier Transform
+│   ├── Example Output
+│   │   ├── Fourier_trans.png
+│   │   ├── LunaFiltrada.png
+│   │   ├── README.md
+│   │   ├── clean_signal_vs_noise.png
+│   │   └── signal.png
+│   ├── NASA_Moon.jpg
+│   ├── README.md
+│   ├── S4CASA_FT.py
+│   └── signal.dat
+├── S5 - Small Project C++
+│   ├── Example Output
+│   │   ├── README.md
+│   │   ├── aleatorios.png
+│   │   └── aleatorios_con_impares.png
+│   ├── Makefile
+│   ├── README.md
+│   ├── S6CASA_repasoC.cpp
+│   └── S6CASA_repasoC.py
+├── S6 - Numerical Solutions Differential Equations
+│   ├── Example Output
+│   │   ├── README.md
+│   │   ├── analitical_graph.png
+│   │   ├── comparacion_Runge-Kutta_analitica.png
+│   │   ├── comparacion_euler_analitica.png
+│   │   ├── euler_method.png
+│   │   └── runge-Kutta_method.png
+│   ├── Makefile
+│   ├── PLOTS_S6C2_EDO_casa.py
+│   ├── README.md
+│   └── S6C2_EDO_casa.cpp
+├── S7 - More Numerical Solutions
+│   ├── Example Output
+│   │   ├── README.md
+│   │   ├── analitical_graph.png
+│   │   ├── euler_method.png
+│   │   ├── euler_method_amortiguado.png
+│   │   ├── leap-Frog_method.png
+│   │   └── runge-Kutta_method.png
+│   ├── Makefile
+│   ├── PLOTS_S7C2_EDO2.py
+│   ├── README.md
+│   └── S7C2_EDO2.cpp
+├── S8 - Solution Wave Equation
+│   ├── Example Output
+│   │   ├── Ecuacion de onda 1
+│   │   │   ├── README.md
+│   │   │   ├── ecuacion_de_onda_tiempo_0.0252333.png
+│   │   │   ├── ecuacion_de_onda_tiempo_0.0585667.png
+│   │   │   ├── ecuacion_de_onda_tiempo_0.0810333.png
+│   │   │   ├── ecuacion_de_onda_tiempo_0.1.png
+│   │   │   ├── ecuacion_de_onda_tiempo_0.png
+│   │   │   └── ecuacion_de_onda_tiempo_3.33333e-05.png
+│   │   ├── Ecuacion de onda 2
+│   │   │   ├── README.md
+│   │   │   ├── ecuacion_de_onda_2_tiempo_0.0002.png
+│   │   │   ├── ecuacion_de_onda_2_tiempo_0.0452.png
+│   │   │   └── ecuacion_de_onda_2_tiempo_0.png
+│   │   ├── Ecuacion de onda 3
+│   │   │   ├── README.md
+│   │   │   ├── ecuacion_de_onda_3_tiempo_0.0252333.png
+│   │   │   ├── ecuacion_de_onda_3_tiempo_0.0585667.png
+│   │   │   ├── ecuacion_de_onda_3_tiempo_0.0810333.png
+│   │   │   ├── ecuacion_de_onda_3_tiempo_0.1.png
+│   │   │   ├── ecuacion_de_onda_3_tiempo_0.png
+│   │   │   └── ecuacion_de_onda_3_tiempo_3.33333e-05.png
+│   │   └── README.md
+│   ├── Makefile
+│   ├── PLOTS_S9C1_EDP.py
+│   ├── README.md
+│   └── S9C1_EDP.cpp
+├── S9 - Numerical Solution 2D diffusion equation
+│   ├── Example Output
+│   │   ├── README.md
+│   │   ├── ecuacion_de_calor_0.png
+│   │   ├── ecuacion_de_calor_1.png
+│   │   ├── ecuacion_de_calor_2.png
+│   │   └── ecuacion_de_calor_3.png
+│   ├── Makefile
+│   ├── PLOTS_S9CASA_EDP.py
+│   ├── README.md
+│   └── S9CASA_EDP.cpp
+└── requirements.txt
+```
 
 
 ### Example Output
